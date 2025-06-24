@@ -773,6 +773,16 @@ Banner Style
   display: inline-block;
   margin-bottom: 50px;
 }
+.main-banner .item span.trust-name {
+  background-color: #2a0bdb;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
 
 .main-banner .item h2 {
   font-size: 48px;
