@@ -1989,3 +1989,70 @@ body {
     width: 95%;
   }
 }
+
+/* Trust Name Heading Styles */
+.trust-header {
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.trust-name-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.academy-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #f5a425;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+/* Contact Info Styles */
+.contact-info {
+  margin: 20px 0;
+  padding: 15px;
+  background: rgba(245, 164, 37, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #f5a425;
+}
+
+.contact-info h5 {
+  color: #f5a425;
+  font-weight: 600;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #f5a425;
+}
+
+/* Responsive styles for trust header */
+@media (max-width: 768px) {
+  .trust-name-heading {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  
+  .academy-subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .trust-name-heading {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .academy-subtitle {
+    font-size: 1rem;
+  }
+}
